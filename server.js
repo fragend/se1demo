@@ -2,7 +2,7 @@
  * node.js webserver simple demo
  * author: Stephan Schiffner
  * Software Engineering 1, WS 20/21
- * For documentation of the node.js http module see: https://nodejs.org/dist/latest-v4.x/docs/api/http.html
+ * For documentation of the node.js http module see: https://nodejs.org/dist/latest-v14.x/docs/api/documentation.html
  * For a html reference see e.g. https://selfhtml.org
  * Read the docs and try to fully understand what's happening in this application.
  */
@@ -16,7 +16,7 @@ var requestListener = function(request, response) {
   // create a html document as response
   var doc = '<h3>Welcome to Software Engineering 1</h3>'
             + '<p>This a <b>simple</b> example of <i>html markup</i></p>'
-            + '<p>node.js documentation: <a href="https://nodejs.org/dist/latest-v4.x/docs/api/http.html">click here</a></p>'
+            + '<p>node.js documentation: <a href="https://nodejs.org/dist/latest-v14.x/docs/api/documentation.html">click here</a></p>'
             + '<p>html reference: <a href="https://selfhtml.org" target="_blank">click here</a></p>'
   response.end(doc);
 }
