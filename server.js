@@ -1,7 +1,7 @@
 /**
  * node.js webserver simple demo
  * author: Stephan Schiffner
- * Software Engineering 1, WS 16/17
+ * Software Engineering 1, WS 20/21
  * For documentation of the node.js http module see: https://nodejs.org/dist/latest-v4.x/docs/api/http.html
  * For a html reference see e.g. https://selfhtml.org
  * Read the docs and try to fully understand what's happening in this application.
